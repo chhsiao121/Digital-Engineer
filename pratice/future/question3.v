@@ -1,6 +1,6 @@
 // 請用verilog寫出以下功能
 // PWM控制
-// Ex: pwm_in=10， pwm_out會輸出10個cycle的high之後輸出(256-10)個cycle的low
+// Ex: pwm_in=10， pwm_out會輸出10個cycle的high之後輸出(256-10)個cycle的low(沒辦法輸出到256個high，0個low，因為0,1,2...,256會有257個狀態)
 // input: [7:0]pwm_in, clk, rst(異步)
 // Output: pwm_out
 
